@@ -166,11 +166,8 @@ div#countdown {
     margin-bottom: 30px;
 }
 
-img.media-object {
-    margin-right: 15px;
-}
-
 .copyright {
-    margin-top: -25px;
     color: #006db3;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
 }
