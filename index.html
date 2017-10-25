@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SSC Goes To Semnas</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
+
+    <!--Font-->
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="hero text-center">
+            <canvas class="background"></canvas>
+            <div class="hero-text">
+                <div id="countdown"></div>
+                <p class="cd_title">Menuju</p>
+                <p class="topic">Seminar Nasional <br>Trend Of A.I : Introducing Big Data And Deep Learning</p>
+                <a href="#" class="btn btn-outlined btn-theme btn-lg">Daftar</a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="row">
+        <div class="text-center">
+            <a href="#"><span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span></a>
+        </div>
+    </div>
+-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            Particles.init({
+                selector: '.background',
+                color: '#039be5',
+                connectParticles: true,
+                maxParticles: 75,
+                minDistance: 120,
+                speed: 0.7,
+            });
+        };
+
+    </script>
+
+    <script type="text/javascript">
+        var countDownDate = new Date("Jan 8, 2018 00:00:00").getTime();
+
+
+        var x = setInterval(function() {
+
+
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+
+            var hari = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var jam = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var menit = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var detik = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+            document.getElementById("countdown").innerHTML = hari + " Hari " + jam + " Jam " +
+                menit + " Menit " + detik + " Detik ";
+
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "Terima Kasih Sudah Berpartisipasi.";
+            }
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
