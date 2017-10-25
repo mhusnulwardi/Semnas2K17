@@ -29,7 +29,7 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: #263238;
 }
 
 
@@ -42,12 +42,12 @@ p.present {
 .topic {
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    color: black;
+    color: #263238;
 }
 
 .cd_title {
     font-family: 'Oswald', sans-serif;
-    color: black;
+    color: #263238;
     font-size: 25px;
 }
 
@@ -74,7 +74,7 @@ p.present {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #263238;
 }
 
 a.btn-lg {
@@ -90,8 +90,8 @@ a.btn-lg {
 
 .btn-outlined.btn-theme {
     background: none;
-    color: black;
-    border-color: black;
+    color: #263238;
+    border-color: #263238;
 }
 
 .btn-outlined.btn-theme:hover,
@@ -105,6 +105,7 @@ a.btn-lg {
     line-height: 22px;
     border: 2px solid;
     padding: 13px 40px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*Pemateri Section*/
@@ -136,43 +137,43 @@ div#countdown {
 }
 
 .narasumber {
-    text-transform: uppercase;
-    color: red;
-    font-family: 'Roboto Slab', serif;
+    /*    text-transform: uppercase;*/
+    color: #263238;
+    font-family: 'Pacifico', cursive;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
 }
 
 .sponsor {
-    text-transform: uppercase;
-    color: red;
-    font-family: 'Roboto Slab', serif;
+    /*    text-transform: uppercase;*/
+    color: #263238;
+    font-family: 'Pacifico', cursive;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
 }
 
 .media {
-
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 30px;
 }
 
 .partner {
-    text-transform: uppercase;
-    color: red;
-    font-family: 'Roboto Slab', serif;
+    /*    text-transform: uppercase;*/
+    color: #263238;
+    font-family: 'Pacifico', cursive;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
 }
 
 .copyright {
-    color: black;
+    color: #263238;
     font-family: 'Roboto Slab', serif;
     font-size: 12px;
 }
 
 p.text-center {
-    color: black;
+    color: #263238;
 }
