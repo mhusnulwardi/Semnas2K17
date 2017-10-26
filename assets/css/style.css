@@ -139,16 +139,17 @@ div#countdown {
 .narasumber {
     /*    text-transform: uppercase;*/
     color: #263238;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .sponsor {
     /*    text-transform: uppercase;*/
     color: #263238;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
@@ -180,7 +181,16 @@ div#countdown {
 .partner {
     /*    text-transform: uppercase;*/
     color: #263238;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 30px;
+}
+
+.support {
+    /*    text-transform: uppercase;*/
+    color: #263238;
+    font-family: 'Roboto Slab', serif;
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
@@ -196,9 +206,44 @@ p.text-center {
     color: #263238;
 }
 
-@media screen and (max-height: 450px) {
+@media (min-width:500px) {
     #countdown {
-        font-size: 10px;
-        display: block !important;
+        font-size: 12px;
     }
+}
+
+@media (max-width:499px) {
+    #countdown {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:500px) {
+    .topic {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:499px) {
+    .topic {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:500px) {
+    .cd_title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:499px) {
+    .cd_title {
+        font-size: 15px;
+    }
+}
+
+.bem,
+.stmik,
+.ssc {
+    margin: 5px 5px 5px 5px;
 }
