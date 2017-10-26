@@ -195,3 +195,10 @@ div#countdown {
 p.text-center {
     color: #263238;
 }
+
+@media screen and (max-height: 450px) {
+    #countdown {
+        font-size: 10px;
+        display: block !important;
+    }
+}
